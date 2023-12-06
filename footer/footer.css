@@ -1,0 +1,79 @@
+* {
+	box-sizing: border-box; /* calcula dimensiones para mantener el tamaño */
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 62.5%;
+    font-family: 'Roboto', sans-serif; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818; /* o #222 */
+    color: #fff; /* Color de texto para contrastar con el fondo oscuro */
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+.buttons {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.buttons button {
+    margin: 1rem;
+    height: 4rem;
+    width: 7rem;
+    border: solid white;
+    color: white;
+    background-color: #181818;
+    border-radius: 2rem;
+}
+.con_targ {
+    margin-top: 3rem;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.targ {
+    text-align: center;
+    border-radius: 2rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-bottom: 1rem;
+    height: 30rem;
+}
+
+.targ img {
+    height: 80%;
+    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+    border-radius: inherit;
+}
+
+.contenido {
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.descripcion {
+    font-size: 1.3rem;
+    padding-bottom: 4rem;
+    color: #666;
+    text-align: left;
+}
