@@ -27,6 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 70vw;
 }
 
 .Acerca_de img{
@@ -50,7 +51,7 @@ body {
 }
 
 #Text_Acerca p{
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -110,6 +111,9 @@ h1 {
     margin-top: 3rem;
     display: flex;
     justify-content: center;
+}
+.content {
+    width: 60vw;
 }
 .buttons button {
     margin: 1rem;
