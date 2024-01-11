@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #181818;
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 14rem;
+}
+
+.US {
+    font-size: 9rem;
+    margin-left: 2.5rem;
+    width: 30%;
+}
+
+.navig {
+    display: flex;
+    justify-content: right;
+    width: 70%;
+}
+
+.navig_item {
+    list-style: none;
+    margin: 2.3rem;
+    margin-left: 0.7rem;
+    font-size: 2.3rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sec {
+    width: 58%;
+    min-width: 65.6rem;
+}
+
+.bia {
+    position: relative;
+    font-size: 10rem;
+    color: aquamarine;
+    margin-left: 7.5rem;
+    top: 1.7rem;
+    min-width: 80rem;
+}
+
+.us {
+    position: relative;
+    font-size: 10rem;
+    color: azure;
+    margin-left: 7.5rem;
+    bottom: 1.7rem;
+}
+
+.text {
+    margin-bottom: 1.4rem;
+    margin-left: 7.5rem;
+    font-size: 2.5rem;                                                                                                                                                                                                                                                                                                                                                            
+}
+
+.navig2 {
+    margin-left: 7.5rem;
+    display: flex;
+    font-size: 2.3rem;
+    margin-top: 3.5rem;   
+}
+
+.navig2_item {
+    list-style: none;
+    text-align: center;
+    padding: 0 1.8rem;
+    border-radius: 3.5rem;
+    border: 0.3rem solid aquamarine;
+    padding-top: 0.9rem;
+    padding-bottom: 1.2rem;
+}
+
+.li1 {
+    margin-right: 2rem;
+    background-color: aquamarine;
+}
+
+.pic {
+    width: 42%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 1rem;
+}   
+
+img {
+    height: 50%;
+}

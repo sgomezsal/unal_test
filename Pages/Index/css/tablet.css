@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #181818;
+    color: white;
+}
+
+header {
+    display: flex;
+    height: 9.5rem;
+}
+
+.US {
+    font-size: 7rem;
+    margin-left: 1.5rem;
+    width: 40%;
+}
+
+.navig {
+    display: flex;
+    justify-content: right;
+    width: 60%;
+}
+
+.navig_item {
+    list-style: none;
+    margin: 1.7rem;
+    margin-left: 0.7rem;
+    font-size: 1.7rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bia {
+    position: relative;
+    font-size: 8rem;
+    color: aquamarine;
+    margin-left: 5.5rem;
+    top: 1.3rem;
+}
+
+.us {
+    position: relative;
+    font-size: 8rem;
+    color: azure;
+    margin-left: 5.5rem;
+    bottom: 1.3rem;
+}
+
+.text {
+    margin-bottom: 1.4rem;
+    margin-left: 4.7rem;
+    padding-right: 3rem;
+    font-size: 1.9rem;                                                                                                                                                                                                                                                                                                                                                            
+}
+
+.navig2 {
+    margin-left: 4.7rem;
+    display: flex;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;   
+}
+
+.navig2_item {
+    list-style: none;
+    text-align: center;
+    padding: 0 1.3rem;
+    border-radius: 2.8rem;
+    border: 0.2rem solid aquamarine;
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.li1 {
+    margin-right: 1.8rem;
+    background-color: aquamarine;
+}
+
+.pic {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3rem;
+}   
+
+img {
+    height: 37rem;
+}
