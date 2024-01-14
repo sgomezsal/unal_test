@@ -8,16 +8,111 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: #181818; /* o #222 */
-    color: #fff; /* Color de texto para contrastar con el fondo oscuro */
+    color: #fff; /* Color de texto para contrastar con el fondo oscuro */}
+
+/* Header page */
+
+header {
     position: relative;
-    padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
 }
 
+.US {
+    font-size: 5rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+}.US:hover {
+    color: rgb(114, 255, 208);
+}
+
+.navig {
+    cursor: pointer;
+}.navig:hover {
+    color: rgb(114, 255, 208);
+}
+
+.navig_item {
+    list-style: none;
+    margin: 2.3rem;
+    margin-left: 0.7rem;
+    font-size: 2.3rem;
+}
+
+main {
+    display: flex;  
+    align-items: center;
+    margin-bottom: 17rem;
+}
+
+.sec {
+    width: 60%;
+}
+
+.bia {
+    position: absolute;
+    font-size: 9rem;
+    padding: 3rem;
+    color: aquamarine;
+    margin-left: 5rem;
+}
+
+.us {
+    top: 12rem;
+    position: relative;
+    font-size: 10rem;
+    color: azure;
+    margin-left: 7.5rem;
+    bottom: 1.7rem;
+}
+
+.text {
+    position: relative;
+    top: 12rem;
+    margin-bottom: 1.4rem;
+    margin-left: 7.5rem;
+    font-size: 2.2rem;                                                                                                                                                                                                                                                                                                                                                            
+}
+
+.navig2 {
+    margin-left: 7.5rem;
+    display: flex;
+    font-size: 2.3rem;
+    margin-top: 3.5rem;   
+}
+
+.navig2_item {
+    position: relative;
+    top: 12rem;
+    list-style: none;
+    text-align: center;
+    padding: 0 1.8rem;
+    border-radius: 3.5rem;
+    border: 0.3rem solid aquamarine;
+    padding-top: 0.9rem;
+    padding-bottom: 1.2rem;
+}
+
+.li1 {
+    margin-right: 2rem;
+    background-color: aquamarine;
+}
+
+.pic {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    position: relative;
+    left: 9rem;
+}   
+.pic img {
+    width: 30rem;
+}
 
 /* Section medium page */
 
@@ -89,6 +184,12 @@ ul, ol{
 
 /* Footer css */
 
+.content {
+    margin: 3rem 10rem 0 10rem;
+    width: 80%;
+    
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -113,7 +214,6 @@ h1 {
 }
 .con_targ {
     margin-top: 3rem;
-    width: 80vw;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px; /* Espacio entre las tarjetas */
@@ -147,7 +247,6 @@ h1 {
 
 .descripcion {
     font-size: 1.3rem;
-    padding-bottom: 4rem;
     color: #666;
     text-align: left;
 }
