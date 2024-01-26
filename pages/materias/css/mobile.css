@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #181818;
+    color: azure;
+}
+
+header {
+    display: flex;
+    padding: 0.8rem;
+}
+
+.US {
+    font-size: 2.3rem;
+    padding-left: 1.4rem;
+    padding-top: 1.4rem;
+    width: 40%;
+}
+
+.navig {
+    display: flex;
+    justify-content: right;
+    width: 60%;
+}
+
+.navig_item {
+    list-style: none;
+    padding: 1.6rem;
+    padding-top: 2.2rem;
+}
+
+.navig_item a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: azure;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1.5rem;
+}
+
+.bsec {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sec {
+    width: 100%;   
+}
+
+.pic {
+    width: 100%;
+    text-align: center;
+}
+
+.im {
+    width: 20rem;
+    height: 13rem;
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+}
+
+.asignature {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.descrp {
+    font-size: 1rem;
+    color: gray;
+    padding-bottom: 1.2rem;
+    width: 20rem;
+    margin: 0 auto;
+}
