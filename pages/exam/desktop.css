@@ -14,6 +14,10 @@ body {
     color: azure;
 }
 
+.inactive {
+    display: none;
+}
+
 header {
     display: flex;
     padding: 1.5rem;
@@ -74,4 +78,55 @@ header {
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.pressed {
+    border: 0.3rem violet solid;
+}
+
+.cbutton {
+    width: 10rem;
+    height: 6rem;
+    background-color: chartreuse;
+    border-radius: 1.8rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+
+.cAnswer {
+    width: 10rem;
+    height: 6rem;
+    background-color: red;
+    border-radius: 1.8rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.answer {
+    font-size: 1.6rem;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.qstRP {
+    font-size: 2rem;
+    color: blue;
+}
+
+.qstRimg {
+    width: 4.5rem;
+}
+
+.qstopP {
+    font-size: 2rem;
+}
+
+.qstopImg {
+    width: 4rem;
 }
