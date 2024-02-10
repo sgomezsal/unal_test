@@ -1,3 +1,4 @@
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -18,6 +19,7 @@ body {
     display: none;
 }
 
+/* Header */
 header {
     display: flex;
     padding: 1.5rem;
@@ -48,6 +50,7 @@ header {
     color: azure;
 }
 
+/* Questions and Options Containers*/
 .questionsContainer {
     width: 100%;
     padding-top: 4rem;
@@ -81,10 +84,31 @@ header {
     cursor: pointer;
 }
 
+/* Question Qst Inside */
+.qstRP {
+    font-size: 2rem;
+    color: blue;
+}
+
+.qstRimg {
+    width: 4.5rem;
+}
+
+/* Question Option Inside */
+.qstopP {
+    font-size: 2rem;
+}
+
+.qstopImg {
+    width: 4rem;
+}
+
+/* Option Pressed */
 .pressed {
     border: 0.3rem violet solid;
 }
 
+/* Button */
 .cbutton {
     width: 10rem;
     height: 6rem;
@@ -99,6 +123,7 @@ header {
     padding: 2rem 0;
 }
 
+/* Result */
 .cAnswer {
     width: 10rem;
     height: 6rem;
@@ -112,21 +137,4 @@ header {
     font-size: 1.6rem;
     padding: 2rem 0;
     margin-top: 2rem;
-}
-
-.qstRP {
-    font-size: 2rem;
-    color: blue;
-}
-
-.qstRimg {
-    width: 4.5rem;
-}
-
-.qstopP {
-    font-size: 2rem;
-}
-
-.qstopImg {
-    width: 4rem;
 }
